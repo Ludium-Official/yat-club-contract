@@ -1,0 +1,13 @@
+npx tsx src/index.ts
+
+POST http://localhost:3000/points
+Content-Type: application/json
+
+{
+  "userId": "user123",
+  "amount": 500
+}
+
+postman
+
+
